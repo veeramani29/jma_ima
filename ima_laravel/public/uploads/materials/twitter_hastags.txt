@@ -1,0 +1,23 @@
+{
+  "Link": "page/category/politics/twitter-analysis/",
+  "Congress": [
+    {
+      "Name": "#Nagpur",
+      "Count": 1343
+    },
+    {
+       "Name": "#TheTashkentFiles",
+    "Count": 1163
+    }
+  ],
+  "BJP": [
+    {
+    "Name": "#IsBaarPhirModi",
+    "Count": 1163
+    },
+    {
+      "Name": "#BJPSankalpPatr2019",
+      "Count": 1343
+    }
+  ]
+}

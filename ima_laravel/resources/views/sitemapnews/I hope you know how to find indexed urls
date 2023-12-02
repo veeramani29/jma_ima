@@ -1,0 +1,46 @@
+I hope you know how to find indexed urls
+site:indiamacroadvisors.com/
+
+1. Please remove all 404 (Page not found url)
+2. Please remove all the urls starts with *laravel.
+3. Please remove all the urls match with /admin/
+4. Please remove all the urls match with /archive/
+
+https://www.indiamacroadvisors.com/auth/callback/*
+https://www.indiamacroadvisors.com/index.php/products/offerings
+https://www.indiamacroadvisors.com/page/category/economic-indicators/money-andbanking/payment-system-indicators/
+
+laravel.*
+=========
+http://laravel.indiamacroadvisors.com/reports/view/reports/a-hung-parliament-poses-little-challenge-to-india
+http://laravel.indiamacroadvisors.com/reports/view/reports/-bjp-tweet-campaign-is-not-just-about-modi
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/money-and-banking/payment-system-indicators/
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/gdp-business-activity/8-core-industries
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/gdp-business-activity/index-of-industrial-production/
+http://laravel.indiamacroadvisors.com/reports/view/reports/power-in-india-lost-in-transmission
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/leading-indicators-/consumer-confidence-survey/
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/money-and-banking/bank-credit-nonfood
+http://laravel.indiamacroadvisors.com/reports/view/reports/battle-between-bjp-and-congress-on-twitter
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/money-and-banking/money-supply/
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/inflation-prices/consumer-price-index/
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/inflation-prices/wholesale-price-index/
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/gdp-business-activity/gdp/
+http://laravel.indiamacroadvisors.com/reports/view/reports/india-evermore-open-for-business
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/labor-market/unemployment-rate/
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/inflation-prices/house-price/
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/financial-markets/exchange-rate
+http://laravel.indiamacroadvisors.com/reports/view/reports/digital-indiaa-year-after-demonetization
+http://laravel.indiamacroadvisors.com/reports/view/reports/indias-worsening-fiscal-condition
+http://laravel.indiamacroadvisors.com/page/category/economic-indicators/government-accounts/
+
+user*
+====
+https://www.indiamacroadvisors.com/user/forgotpassword
+https://www.indiamacroadvisors.com/user/myaccount
+http://laravel.indiamacroadvisors.com/
+https://www.indiamacroadvisors.com/user/confirmregistration/a3VlazIwQDk5cHJpY2UuY28=
+https://www.indiamacroadvisors.com/user/registercompetition/withoutlogin
+
+https://www.indiamacroadvisors.com/page/category/econ
+http://laravel.indiamacroadvisors.com/page/upload_document
+https://www.indiamacroadvisors.com/archive/20

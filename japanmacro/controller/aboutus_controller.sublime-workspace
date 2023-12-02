@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Use",
+				"userEmail"
+			],
+			[
+				"Jma",
+				"JMA"
+			],
+			[
+				"array",
+				"array_sum"
+			],
+			[
+				"array_u",
+				"array_unique"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"ad",
+				"addClass"
+			],
+			[
+				"strot",
+				"strtotime"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"cu",
+				"currentFolder"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"tr",
+				"trigger"
+			],
+			[
+				"mysql_nm",
+				"mysql_num_rows"
+			],
+			[
+				"mysql",
+				"mysql_query"
+			],
+			[
+				"mys",
+				"mysql_error"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"uns",
+				"unset"
+			],
+			[
+				"bas",
+				"base64_decode"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"arry",
+				"array_filter"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"iss",
+				"isset"
+			],
+			[
+				"ma",
+				"maxlength	Attr"
+			],
+			[
+				"n",
+				"novalidate	Attr"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"re",
+				"required	Attr"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"array_k",
+				"array_key_exists"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"is_s",
+				"is_string"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"mysql_s",
+				"mysql_select_db"
+			],
+			[
+				"mysql_",
+				"mysql_connect"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"err",
+				"error_reporting"
+			],
+			[
+				"str_",
+				"str_ireplace"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ini",
+				"ini_set"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"php",
+				"phpinfo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Guru/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Guru/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Guru/AppData/Roaming/Sublime Text 3/Packages/Gremlins/Example.sublime-keymap",
+		"/C/Users/Guru/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/scripts/add_new_obj_in_folder_content.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/modal/user_modal.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/js/jma.js",
+		"/C/Users/Guru/Desktop/important",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/controller/user_controller.php",
+		"/C/wamp/www/rf/application/config/hooks.php",
+		"/C/wamp/www/rf/application/controllers/home.php",
+		"/C/wamp/www/rf/application/hooks/LanguageLoader.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/view/templates/default.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/controller/mycharts_controller.php",
+		"/C/wamp/www/rf/application/views/flight/ajax_results_round.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/ajax_results_round.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/booking.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/payment_model.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/doPayment.php",
+		"/C/wamp/www/tf/application/controllers/doPayment.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/doPayment 2.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/wamp/www/rf/application/views/common/doPayment.php",
+		"/C/wamp/www/rf/application/controllers/booking.php",
+		"/C/wamp/www/tf/application/config/hybridauthlib.php",
+		"/C/wamp/www/tf/application/config/constants.php",
+		"/C/wamp/www/tf/application/config/config.php",
+		"/C/wamp/www/tf/application/config/autoload.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/Providers/Facebook.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/index.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/Providers/AOL.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/resources/config.php.tpl",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/User.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/Provider_Model_OAuth1.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/Provider_Model.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/Provider_Adapter.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/thirdparty/LinkedIn/LinkedIn.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/thirdparty/Facebook/facebook.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/thirdparty/Facebook/base_facebook.php",
+		"/C/wamp/www/tf/application/models/auth_model.php",
+		"/C/wamp/www/tf/application/controllers/auth.php",
+		"/C/wamp/www/tf/application/controllers/hauth.php",
+		"/C/wamp/www/tf/application/controllers/oauth2callback.php",
+		"/C/wamp/www/tf/application/libraries/HybridAuthLib.php",
+		"/C/wamp/www/tf/application/core/MY_Loader.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/Endpoint.php",
+		"/C/wamp/www/tf/application/third_party/hybridauth/Hybrid/Auth.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/index.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/view/mycharts/index.php",
+		"/C/Users/Guru/Desktop/Web Tutorials.txt",
+		"/C/Users/Guru/Desktop/common.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/myprofile.php",
+		"/C/xampp/htdocs/dashboard/life/login.php",
+		"/C/xampp/htdocs/dashboard/life/myprofile.php",
+		"/C/xampp/htdocs/dashboard/life/img.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker.php",
+		"/C/xampp/htdocs/dashboard/life/signout - Copy.php",
+		"/C/xampp/htdocs/dashboard/life/include.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Result.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Record.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Field.php",
+		"/C/xampp/htdocs/dashboard/creo/quotations.php",
+		"/C/xampp/htdocs/dashboard/creo/paypal1.php",
+		"/C/xampp/htdocs/dashboard/life/signout.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/Command/FindImpl.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/FieldImpl.php",
+		"/C/xampp/htdocs/dashboard/life/index.html",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/CommandImpl.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/PerformScript.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/FindRequest.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/FindAny.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/FindAll.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/Find.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/CompoundFind.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/Add.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/RelatedSet.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Layout.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Error.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/Command/AddImpl.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/FileMakerImpl.php",
+		"/C/xampp/htdocs/dashboard/life/assets/bootstrap/css/nexus.css",
+		"/C/xampp/htdocs/dashboard/creo/PHP_FM_Class/FileMaker.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Command/Delete.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/conf/filemaker-api.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/Parser/FMPXMLLAYOUT.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/Parser/FMResultSet.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/Command/CompoundFindImpl.php",
+		"/C/xampp/htdocs/dashboard/life/FileMaker/Implementation/Command/DuplicateImpl.php",
+		"/C/xampp/htdocs/dashboard/creo/view_estimates.php",
+		"/C/xampp/htdocs/dashboard/creo/login.php",
+		"/C/xampp/htdocs/dashboard/creo/PHP_FM_Class/dbaccess.php",
+		"/C/xampp/htdocs/dashboard/creo/PHP_FM_Class/functions.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/info.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/FileMaker.php",
+		"/C/xampp/htdocs/dashboard/creo/header.php",
+		"/C/xampp/htdocs/dashboard/creo/invoice.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/wamp/www/rf/application/views/common/footer.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/wamp/www/rf/application/views/index.php",
+		"/C/Users/Guru/AppData/Local/Temp/fz3temp-1/flight-result.php",
+		"/C/wamp/www/rf/application/views/flight/flight-result.php",
+		"/C/wamp/www/rf/application/controllers/doPayment.php",
+		"/C/wamp/www/rf/application/models/payment_model.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/modal/userfolders_modal.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/config/conf.ini",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/config/database.ini",
+		"/D/jma/japanmacroadvisors.com/js/jma.js",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/view/user/myaccount_user_trial.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/controller/chart_controller.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/view/user/myaccount_user_active.php",
+		"/C/xampp/htdocs/dashboard/creo/user_estimates.php",
+		"/C/xampp/htdocs/dashboard/creo/user_invoice.php",
+		"/C/xampp/htdocs/dashboard/creo/user_PFinvoice.php",
+		"/C/xampp/htdocs/dashboard/creo/view_invoice.php",
+		"/C/xampp/htdocs/dashboard/creo/view_PFinvoice.php",
+		"/C/xampp/htdocs/dashboard/creo/changepswd.php",
+		"/C/Users/Guru/Desktop/paragraph.html",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/controller/custom_controller.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/alanee_classes/payment/stripe_class.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/view/custom/dopayment.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/libraries/stripe/stripe-php-3.2.0/build.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/libraries/stripe/stripe-php-3.2.0/lib/Stripe.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/libraries/stripe/stripe-php-3.2.0/init.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/view/user/payment_success.php",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/css/style.css",
+		"/C/xampp/htdocs/jma/japanmacroadvisors.com/view/mycharts/mychartback/index -15-07.php"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"chart_view_type\"",
+			"chart_view_type",
+			"chart_view",
+			"Switch",
+			"ppt",
+			"dv_home_mn_graph_new_ico_txt",
+			"export",
+			"retdepature",
+			"booking_id",
+			"$bid",
+			"JMAChart(",
+			"JMAChart",
+			"export_chart_image_select_format_",
+			"addFindCriterion",
+			"Tennis_Array",
+			"Athletics_Array",
+			"addFindCriterion",
+			"';\n",
+			"Clubname",
+			"validate_order",
+			"switchThisChartViewType",
+			"folderContent",
+			"chart_view_type",
+			"editThisFolderContent",
+			"chart_view_type",
+			"populate",
+			"pop",
+			"switchThisChartViewType",
+			"switc",
+			"pop",
+			"switchThisChartViewType",
+			"updatethiseditedchart",
+			"switchThisChartViewType",
+			"exhibit-tab",
+			"dopayment",
+			"user/dopayment",
+			"createSubscription",
+			"updateStripeCusId",
+			"user",
+			"switchThisChartViewType",
+			"createChartCodeFromConfig",
+			"populate",
+			"exhibit-tab",
+			"drawThisDataOnTable",
+			"n chart(",
+			"chart(",
+			"getchart",
+			"getchrt",
+			"chart_view_type",
+			"saveThisChartToFolder",
+			"addtofolder",
+			"addfolder",
+			"localStorage",
+			"Storagetable",
+			"local_Storagetbl",
+			"order_ID",
+			"$PFInvoiceID",
+			"ESTIMATE",
+			"getc",
+			"$data",
+			"findTopVisibleRow",
+			"params",
+			"Credicard",
+			"CrediCard",
+			"RedeemPoints",
+			"\"Complete\"",
+			"RedeemPoints",
+			"PointsRedeemed",
+			"TotalPointsDebited",
+			"FinalTotalPrice",
+			"user_loyalty_info",
+			"last_credit",
+			"user_loyalty_info",
+			"get_loyalty_points_balance",
+			"ReturnRedeemPoints",
+			"RedeemPoints",
+			"ReturnRedeemPoints",
+			"penalty",
+			"Tickets",
+			"bookingCounts_arr",
+			"setPriceIntoModal",
+			"tickets",
+			"ree",
+			"reed",
+			"newer",
+			"newe",
+			"layo",
+			"\"amount",
+			"Refundable",
+			"refun",
+			"$iss",
+			"CancelPenalty",
+			"_bag",
+			"Add",
+			"<ul>",
+			"add no",
+			"ExportHeading",
+			"EXDOW",
+			"note_content",
+			"ckeditor",
+			"draw",
+			"drawnote",
+			"createNewFolderContent",
+			"make-note-ex",
+			"Add note content",
+			"editor",
+			"Refundable",
+			"$Bagg",
+			"FaresIndicator",
+			"BaggageAllowance_arr",
+			"air_pricing_modifiers",
+			"lightbtn",
+			"rightContainer",
+			"seatsLeft js-toolTip",
+			"chart_object",
+			"export(",
+			"export",
+			"expo",
+			"createTemplatedSlide",
+			"copy",
+			"move",
+			"copy",
+			"600",
+			"height=\"191\"",
+			"height=\"213\"",
+			"\"213",
+			"outfile",
+			"exportChart"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$params",
+			"data",
+			"height=\"213\"",
+			"N/A",
+			"$_REQUEST",
+			"<?=lang('Cancel');?> Or Change",
+			"flight_cancel_request",
+			"43668c",
+			"#EBEBEB",
+			"#BC5E43",
+			"http://beta.ticketfinder.nl/",
+			"",
+			"<LoyaltyCard",
+			"chartTitleArray",
+			"cvv",
+			"",
+			"margin-bottom-10",
+			"name=\"meals<?php echo $cid;?>[<?php echo $key.$sno;?>]\"",
+			"name=\"meals<?php echo $cid;?>\"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "aboutus_controller.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /careers
+Disallow: /admin
+Disallow: /materials/download/29/kinzai_20140303_industry.pdf
+Disallow: /materials/download/22/kinzai_20131209_retail.pdf
+Disallow: /materials/download/31/kinzai_20140317_women.pdf
+Disallow: /materials/download/17/kinzai_20131028_overseas_sales.pdf
+Disallow: /materials/download/28/kinzai_20140224_productivity.pdf
+Disallow: /materials/download/33/kinzai_20140331_NPLs.pdf
+Disallow: /materials/download/21/kinzai_20131202_poverty.pdf
+Disallow: /materials/download/53/20150706_k64.pdf
+Disallow: /materials/download/11/kinzai_20131007_CPI.pdf
+Disallow: /materials/download/24/kinzai_20140120_BoJ_JGBs.pdf
+Disallow: /materials/download/32/kinzai_20140324_wage2.pdf
+Disallow: /materials/download/30/kinzai_20140310_tourism.pdf
+Disallow: /materials/download/10/kinzai_20130930_trade.pdf
+Disallow: /materials/download/9/kinzai_20130923_RPPI.pdf
+Disallow: /materials/download/18/kinzai_20131111_food-service.pdf
+Disallow: /materials/download/20/kinzai_20131125_rice-farming.pdf
+Disallow: /materials/download/26/kinzai_20140203_software.pdf
+Disallow: /materials/download/19/kinzai_20131118_WEO.pdf
+Disallow: /materials/download/14/20131021_PB2.pdf
+Disallow: /materials/download/50/20150601_k56%EF%BC%88%E6%97%A5%E6%9C%AC%E9%8A%80%E8%A1%8C%E3%80%8C%E6%AD%B4%E5%8F%B2%E7%B5%B1%E8%A8%88%E3%80%8D%EF%BC%89.pdfDisallow: /materials/download/52/20150615_k56%EF%BC%88%E6%9D%B1%E4%BA%AC%E9%83%BD%E3%80%8C%E5%A4%96%E5%9B%BD%E4%BA%BA%E4%BA%BA%E5%8F%A3%E3%80%8D%EF%BC%89.pdf
+Disallow: /*?url=*
+Disallow: /*?q=

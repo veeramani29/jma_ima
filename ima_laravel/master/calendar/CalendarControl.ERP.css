@@ -1,0 +1,123 @@
+#CalendarControlIFrame {
+  display: none;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  height: 250px;
+  width: 250px;
+  z-index: 99;
+}
+
+#CalendarControl {
+  position:absolute;
+  background-color:#FFF;
+  margin:0;
+  padding:0;
+  display:none;
+  z-index: 100;
+}
+
+#CalendarControl table {
+  font-family: arial, verdana, helvetica, sans-serif;
+  font-size: 8pt;
+  border-left: 1px solid #336;
+  border-right: 1px solid #336;
+  width: 160px;
+}
+
+#CalendarControl th {
+  font-weight: normal;
+}
+
+#CalendarControl th a {
+  font-weight: normal;
+  text-decoration: none;
+  color: #FFF;
+  padding: 1px;
+}
+
+#CalendarControl td {
+  text-align: center;
+}
+
+#CalendarControl .header {
+  background-color: #73afb6;
+}
+
+#CalendarControl .weekday {
+  background-color: #c1d9d1;
+  color: #000;
+}
+
+#CalendarControl .weekend {
+  background-color: #c1d9a1;
+  color: #000;
+}
+
+#CalendarControl .current {
+  border: 1px solid #73afb6;
+  background-color: #73afb6;
+  color: #FFF;
+}
+
+#CalendarControl .current1 {
+  border: 1px solid #FFF;
+  background-color: #73afb6;
+  color: #FFF;
+  width: 2em;  
+}
+#CalendarControl .weekday1 {
+  border: 1px solid #FFF;
+  background-color: #c1d9d1;
+  color: #000;
+  width: 2em;  
+}
+
+#CalendarControl .weekday,
+#CalendarControl .weekend,
+#CalendarControl .current {
+  display: block;
+  text-decoration: none;
+  border: 1px solid #FFF;
+  width: 2em;
+}
+
+#CalendarControl .weekday:hover,
+#CalendarControl .weekend:hover,
+#CalendarControl .current:hover {
+  color: #FFFFFF;
+  background-color: #73afb6;
+  border: 1px solid #999;
+}
+
+#CalendarControl .previous {
+  text-align: left;
+}
+
+#CalendarControl .next {
+  text-align: right;
+}
+
+#CalendarControl .previous,
+#CalendarControl .next {
+  padding: 1px 3px 1px 3px;
+  font-size: 1.4em;
+}
+
+#CalendarControl .previous a,
+#CalendarControl .next a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#CalendarControl .title {
+  text-align: center;
+  font-weight: bold;
+  color: #FFF;
+}
+
+#CalendarControl .empty {
+  background-color: #BEC8B5;
+  border: 1px solid #FFF;
+}

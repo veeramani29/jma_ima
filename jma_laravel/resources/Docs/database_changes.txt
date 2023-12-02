@@ -1,0 +1,30 @@
+1) alter table post
+	Add new colunms
+	1) post_url - varchar - 250
+	2) post_url_key - varchar - 64
+	Query : ALTER TABLE `japanm5_japanmacroadvisors`.`post` ADD COLUMN `post_url` VARCHAR(250) NOT NULL AFTER `post_meta_description`; 
+		ALTER TABLE `japanm5_japanmacroadvisors`.`post` ADD COLUMN `post_url_key` VARCHAR(64) NOT NULL AFTER `post_url`;
+		
+
+2) alter table post_category
+	Add new columns
+	1) category_url - varchar - 250
+	2) category_url_key - varchar - 64
+	3) category_type - enum - (P,N,M)
+	Query : ALTER TABLE `japanm5_japanmacroadvisors`.`post_category` ADD COLUMN `category_url` VARCHAR(250) NOT NULL AFTER `premium_category`, ADD COLUMN `category_url_key` VARCHAR(64) NOT NULL AFTER `category_url`; 
+		ALTER TABLE `japanm5_japanmacroadvisors`.`post_category` ADD COLUMN `category_type` ENUM('P','N','M') DEFAULT 'P' NOT NULL AFTER `category_url_key`;
+
+3) New table - clients_company
+	Query : CREATE TABLE `japanm5_japanmacroadvisors`.`clients_company`( `clients_company_id` INT NOT NULL AUTO_INCREMENT, `clients_company_name` VARCHAR(200) NOT NULL, `clients_company_image_path` VARCHAR(255), `clients_company_statue` ENUM('Y','N') NOT NULL DEFAULT 'Y', KEY(`clients_company_id`) ) ENGINE=INNODB CHARSET=utf8 COLLATE=utf8_unicode_ci; 
+	      : ALTER TABLE `japanm5_japanmacroadvisors`.`clients_company` ADD PRIMARY KEY (`clients_company_id`); 
+4) New table - clients_accounts
+	Query : CREATE TABLE `japanm5_japanmacroadvisors`.`clients_accounts`( `clients_accounts_id` INT UNSIGNED NOT NULL AUTO_INCREMENT, `clients_accounts_company_id` INT, `clients_accounts_fname` VARCHAR(120) NOT NULL, `clients_accounts_lname` VARCHAR(120) NOT NULL, `clients_accounts_email` VARCHAR(200) NOT NULL, `clients_accounts_password` VARCHAR(32) NOT NULL, `clients_accounts_jobtitle` VARCHAR(200), `clients_accounts_address` VARCHAR(255), `clients_accounts_country_id` INT, `clients_accounts_phone` VARCHAR(14), `clients_accounts_fax` VARCHAR(14), `clients_accounts_email_alerts` TEXT, KEY(`clients_accounts_id`) ) ENGINE=INNODB CHARSET=utf8 COLLATE=utf8_unicode_ci; 
+	      : ALTER TABLE `japanm5_japanmacroadvisors`.`clients_accounts` ADD PRIMARY KEY (`clients_accounts_id`); 
+
+5) New table - clients_accounts_comments
+	Query : CREATE TABLE `japanm5_japanmacroadvisors`.`clients_accounts_comments`( `clients_accounts_comments_id` INT NOT NULL AUTO_INCREMENT, `clients_accounts_comments_account_id` INT NOT NULL, `clients_accounts_comments_by_admin_id` INT NOT NULL, `clients_accounts_comments_comment` MEDIUMBLOB, `clients_accounts_comments_datetime` DATETIME NOT NULL DEFAULT NOW(), PRIMARY KEY (`clients_accounts_comments_id`) ) ENGINE=INNODB; 
+
+
+	ALTER TABLE `graph_details` ADD `type` ENUM('Map','Graph') NOT NULL DEFAULT 'Graph' AFTER `updated_page`;
+	ALTER TABLE `graph_values` CHANGE `region` `region` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+	ALTER TABLE `graph_values` ADD `region`  VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;

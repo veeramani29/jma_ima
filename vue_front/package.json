@@ -1,0 +1,92 @@
+{
+  "name": "ima",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "^4.7.95",
+    "@vue/cli": "^4.1.1",
+    "axios": "^0.19.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "core-js": "^3.5.0",
+    "cors": "^2.8.5",
+    "css-loader": "^3.3.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "fs": "0.0.1-security",
+    "hammerjs": "^2.0.8",
+    "handlebars": "^4.7.3",
+    "highcharts": "^8.0.0",
+    "highcharts-vue": "^1.3.5",
+    "jquery": "^3.4.1",
+    "ks-vue-fullpage": "^1.2.8",
+    "mobile-detect": "^1.4.4",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.0",
+    "mysql2": "^2.1.0",
+    "node": "^13.6.0",
+    "node-sass": "^4.13.1",
+    "nodemailer": "^6.4.2",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "passport-github": "^1.1.0",
+    "passport-linkedin-oauth2": "^2.0.0",
+    "passport-youtube-v3": "^2.1.0",
+    "path": "^0.12.7",
+    "razorpay": "^2.0.6",
+    "social-login": "^0.2.8",
+    "sync-mysql": "^3.0.1",
+    "velocity": "^0.7.2",
+    "velocity-animate": "^1.5.2",
+    "vue": "^2.6.10",
+    "vue-axios": "^2.1.5",
+    "vue-clipboard2": "^0.3.1",
+    "vue-fullpage.js": "^0.1.5",
+    "vue-localstorage": "^0.6.2",
+    "vue-recaptcha": "^1.3.0",
+    "vue-router": "^3.1.3",
+    "vue-tel-input": "^4.1.1",
+    "vue-truncate-collapsed": "^2.1.0",
+    "vue-youtube-embed": "^2.2.2",
+    "vuetify": "^2.1.14",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.23.7",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.0.2",
+    "vue-template-compiler": "^2.6.10",
+    "vuetify-loader": "^1.3.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

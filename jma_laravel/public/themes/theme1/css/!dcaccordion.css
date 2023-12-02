@@ -1,0 +1,66 @@
+
+.inner_menuwrap .accordion {
+	font: bold 14px Arial, sans-serif;
+	border-top: 1px solid #111;
+	border-right: 1px solid #111;
+	border-left: 1px solid #111;
+}
+.inner_menuwrap .accordion, .inner_menuwrap .accordion li {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.inner_menuwrap .accordion li strong {
+width:241px;
+	height:30px;
+	margin:0 0 10px 0px;
+	padding:0px;
+	display:block;
+	text-transform:uppercase;
+	font-size:17px;
+	font-weight:bold;
+	background:url(../images/menu_border.jpg) no-repeat right bottom;
+}
+.inner_menuwrap .accordion a {
+	width:216px;
+	margin:0 0 15px 0px;
+	padding:0 10px 0 15px;
+	color:#FFFFFF;
+	font-size:13px;
+	text-decoration:none;
+	font-weight:normal;
+	display: block;
+	position: relative;
+	background:url(../images/dcaccordion/inner_menuli.png) no-repeat left 2px;
+}
+.inner_menuwrap .accordion ul a {
+	height:16px;
+	margin-left:15px;
+	width:200px;
+	font-size:12px;
+	background:url(../images/dcaccordion/inner_menuli.png) no-repeat left 2px;
+	
+}
+.inner_menuwrap .accordion a.dcjq-parent, .inner_menuwrap .accordion a.dcjq-parent:hover {
+	cursor:pointer;
+}
+.inner_menuwrap .accordion a.dcjq-parent.active {
+}
+.inner_menuwrap .accordion a .dcjq-icon {
+	position: absolute;
+	top:3px;
+	left: 2px;
+	width: 12px;
+	margin-top: 0px;
+	height:16px;
+	background:url(../images/dcaccordion/inner_menuli.png) no-repeat;
+}
+.inner_menuwrap .accordion a.dcjq-parent.active .dcjq-icon {
+	background:url(../images/dcaccordion/inner_menuli_down.png) no-repeat;
+}
+.inner_menuwrap .accordion a:hover {
+	
+}
+.inner_menuwrap .accordion a:active {
+}

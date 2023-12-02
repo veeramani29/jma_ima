@@ -1,0 +1,170 @@
+@media print
+   {
+   
+
+@page {
+  size: portrait;
+}
+
+.graph-filter,
+.graph-range,
+.graph-range1,
+.graph-right,
+.content_rightection,
+.right-menus,
+.cke_reset_all,
+.ExportHeading,
+.DownloadHeading,
+.h_graph_tab_area,
+header,
+footer,
+.myfol_toggle,
+#cookie-bar,
+#carousel_home,
+#overlay_loading,
+.highcharts-scrollbar,
+.modal,
+.right-menus,.abs-menus,
+.content_leftside,.charts_exhtab,
+.exhibit-tab,.page_downseparate,.print-mycharts {
+display: none !important;
+}
+
+.tab-content > .tab-pane.active{
+    display: block !important;
+  /*  visibility: visible !important;*/
+}
+
+#grids{
+     margin: 1cm !important;
+}
+.content_midsection,#fpt_small {
+    text-align: left !important;
+}
+
+
+.page-title{
+    margin-bottom: 0px !important;
+}
+
+.cke_editable {
+    box-shadow:none !important;
+}
+
+#grids .exhibit{
+
+    margin-bottom:1.5cm !important;
+}
+
+#grids .col-xs-12.col-lg-6.exhibit{
+height: 560px !important;
+
+}
+
+.sub-title h5 {
+   /* font-size: 8px !important;*/
+    margin-left: 0px !important;
+}
+
+#grids .mychart_table tbody > tr > td:first-child, .mychart_table thead > tr > th:first-child {
+    width: 18% !important;
+    background: #eee !important;
+}
+
+#grids .noteContent {
+  
+    padding: 15px !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+   
+}
+
+
+
+
+
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.folnav_stick,.folnav_stipos{
+    display: none;
+}
+@page {
+   
+   /* margin: 2px;  
+    margin: 3cm;
+    margin: 1in;*/
+    margin: 2cm 0cm;
+}
+
+.content_midsection.full-width {
+    width: 1200px;
+    font-family: Arimo;
+}
+.content_midsection .page.large-view .exhibit {
+    width: 50%;
+    float: left;
+/*   margin-bottom: 35px;*/
+}
+
+/* small View */
+
+
+#smallView_grids {
+    width: 1200px;
+    font-family: Arimo;
+}
+#smallView_grids .ftps_holconmin {
+    width: 48% !important;
+    float: left !important;
+
+}
+
+.ftps_holconmin .ftps_holcon  {
+    width: 100% !important;
+   
+
+}
+
+.ftps_holconmin .ftps_holcon .exhibit {
+    width: 50% !important;
+    float: left !important;
+
+}
+
+/*list view*/
+
+
+.list-view > ul > li:last-child{
+    display: none !important;
+}
+.chart_listview > ul > li,
+.list-view > ul > li{
+     float: left !important;
+      width: 45% !important;
+}
+.list-view > ul > li:nth-child(2){
+     width: 55% !important;
+}
+.list-view > ul > li:nth-child(3){
+     float: right !important;
+     width: 35% !important;
+}
+.chart_listview > ul > li:first-child,
+.list-view > ul > li:first-child{
+    width: 10% !important;
+}
+
+
+
+}
+
+
+
+
+
+
+
+

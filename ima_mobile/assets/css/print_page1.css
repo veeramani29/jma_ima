@@ -1,0 +1,129 @@
+@page {
+  size: portrait;
+}
+.graph-filter,
+.graph-range,
+.graph-range1,
+.graph-right,
+.content_leftside,
+.content_rightection,
+.right-menus,
+.exhibit-tab,
+.abs-menus,
+.cke_reset_all,
+#overlay_loading,
+footer,
+#cookie-bar,
+#carousel_home,
+.modal,
+.content_leftside
+header {
+	display: none !important;
+}
+#cookie-bar, .highcharts-scrollbar {
+	visibility: hidden !important;
+}
+.page-title{
+	margin-bottom: 0px !important;
+}
+
+.cke_editable {
+	box-shadow:none !important;
+}
+
+.myfol_toggle{
+	visibility: hidden !important;
+}
+
+.exhibit{
+
+	margin-bottom:2cm !important;
+}
+
+.col-xs-12.col-lg-6.exhibit{
+height: 400px !important;
+
+}
+
+.sub-title h5 {
+    font-size: 10px !important;
+    margin-left: 0px !important;
+}
+
+.mychart_table tbody > tr > td:first-child, .mychart_table thead > tr > th:first-child {
+    width: 18% !important;
+    background: #eee !important;
+}
+
+.noteContent {
+  
+    padding: 12px !important;
+    background: #f5f5f5 !important;
+    border: 1px solid #ddd !important;
+   
+}
+/*.exhibit .graph-view .highcharts-container svg{
+	   width: 300px !important;
+	   text-align: left !important;
+	
+	font-size: 10px !important;
+}*/
+
+
+/*.exhibit .highcharts-container{
+	
+    overflow: visible !important;
+    width: 350px !important;
+}*/
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+@page {
+   
+   /* margin: 2px;  
+    margin: 3cm;
+    margin: 1in;*/
+    margin: 0cm;
+}
+
+
+
+
+
+
+section,.col-xs-12{
+  width: 100% !important ;
+ 
+}
+div.col-xs-12.col-lg-6.exhibit{
+	  width: 50% !important ;
+
+}
+
+
+
+.ExportHeading,.DownloadHeading,.h_graph_tab_area {
+display: none !important;
+}
+
+#grids{
+	 margin: 0cm !important;
+}
+header, footer { display: none !important; }
+
+
+
+
+
+
+.content_midsection {
+	text-align: left !important;
+}
+
+
+
+
+

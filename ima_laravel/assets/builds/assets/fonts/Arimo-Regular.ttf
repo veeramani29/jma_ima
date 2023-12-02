@@ -1,0 +1,1 @@
+module.exports = __webpack_public_path__ + "./assets/plugins/font-awesome/fonts/Arimo-Regular.ttf";

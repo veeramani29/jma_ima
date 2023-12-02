@@ -1,0 +1,187 @@
+<?php 
+$newsContent = $result['news'];
+$data = '<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.japanmacroadvisors.com/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/aboutus/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/contact/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/aboutus/privacypolicy/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/daily-confirmed-covid19-cases-and-death/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/covid19-related-documents/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/covid19-data-by-prefectures/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/covid19-tokyo-new-york-city/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/covid19-days-for-deaths-to-double/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/covid19-confirmed-cases-by-prefectures/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/covid19-pcr-tested-positive-ratio-by-prefectures/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/covid19-related/death-by-cause/</loc>
+ </url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/gdp/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/output-gap/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/corporate-profits/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/industrial-production/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/retail-sales/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/consumption-activity-index/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/number-of-visitors-to-japan/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/international-balance/customs-cleared-trade/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/international-balance/balance-of-payment/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/international-balance/fx-reserve-and-intervention/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/leading-indicators/economy-watchers-survey/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/leading-indicators/tankan/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/leading-indicators/consumer-confidence-index/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/inflation-and-prices/cpi/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/inflation-and-prices/cgpi/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/inflation-and-prices/house-price/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/inflation-and-prices/commercial-property-price/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/labor-markets/job-offers-to-applicant-ratio/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/labor-markets/unemployment-rate/</loc>
+ </url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/labor-markets/wage-and-hours-worked/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/labor-markets/japan-population/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/labor-markets/immigration-to-japan/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/financial-markets/exchange-rates/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/financial-markets/interest-rates/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/financial-markets/yield-curve/</loc>
+ </url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/money-and-credit/money-supply/</loc>
+ </url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/money-and-credit/bank-lending/</loc>
+ </url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/balancesheets/general-government/</loc>
+ </url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/balancesheets/household/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/balancesheets/nonfinancial-corp/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/world-economy/long-term-economic-trend/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/world-economy/bis-property-price-indices/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/bank-of-japan/overview/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/bank-of-japan/boj-balance-sheet/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/public-finance/fiscal-balance/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/public-finance/public-debt/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/politics/overview/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/politics/cabinet-approval-rating/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/aboutus/termsofuse/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/gdp-and-business-activity/machinery-orders/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/breaking-news/foreign-visitors-to-japan-doubled-in-the-last-decade</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/breaking-news/a-primer-on-the-new-house-price-index</loc>
+ </url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/financial-markets/jgbs-held-by-boj/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/breaking-news/wage-growth-no-longer-accelerating</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/bank-of-japan/boj-policy-meetings/end-of-kurodanomics</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/politics/who--s-who/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/page/category/economic-indicators/financial-markets/avg-duration-of-jgbs/</loc>
+</url>
+<url>
+  <loc>https://www.japanmacroadvisors.com/reports/view/bank-of-japan/boj-policy-meetings/boj-seem-no-longer-bound-by-the-time</loc>
+</url>';
+$data .= '</urlset>';
+echo $data;
+?>

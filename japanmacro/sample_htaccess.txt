@@ -1,0 +1,11 @@
+Options +FollowSymlinks
+RewriteEngine On
+Redirect 301 /reports/view/breaking-news/market-is-wrong-to-dismiss-the-boj-move-today /reports/view/bank-of-japan/boj-policy-meetings/market-is-wrong-to-dismiss-the-boj-move-today
+Redirect 301 /reports/view/breaking-news/boj-opens-the-negative-rate-floodgate /reports/view/bank-of-japan/boj-policy-meetings/boj-opens-the-negative-rate-floodgate
+Redirect 301 /reports/view/breaking-news/the-man-needs-a-start-over /reports/view/bank-of-japan/boj-policy-meetings/the-man-needs-a-start-over
+Redirect 301 /reports/view/breaking-news/end-of-kurodanomics /reports/view/bank-of-japan/boj-policy-meetings/end-of-kurodanomics
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+RewriteRule \.svg$ /svg.php [L]

@@ -1,0 +1,33 @@
+#order deny,allow
+#deny from all
+#allow from my-ip
+
+
+  
+<IfModule mod_rewrite.c>
+# MAINTENANCE-PAGE REDIRECT
+#RewriteCond %{REQUEST_URI} !under_maintenance\.php
+#RewriteRule ^(.*)$ /jma/blog/under_maintenance.php [R=302,L]
+
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    RewriteEngine On
+#RewriteBase /blog
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)/$blog/$1 [L,R=301]
+  
+
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+   
+</IfModule>

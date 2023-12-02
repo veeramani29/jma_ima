@@ -1,0 +1,20 @@
+Save graph : Details to be saved
+
+chart_actual_code (chart code)
+chart_data_type
+current_chart_codes
+
+2---
+isChartTypeSwitchable
+navigator_date_from
+navigator_date_to
+chartType
+charts_codes_available
+
+->Prepare chart code with  2--- details
+
+-> Need only data and basic graph details to display statis graph.
+-> On edit process graph code.
+
+
+Database

@@ -1,0 +1,1 @@
+ALTER TABLE post ADD COLUMN post_share_description VARCHAR(250);
